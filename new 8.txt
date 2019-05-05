@@ -1,0 +1,25 @@
+	
+		/*//session = sessionFactory.getCurrentSession();
+		System.out.println("Session created");
+		//start transaction
+		
+		tx = session.beginTransaction();
+		
+		
+
+		//Save the Model objects
+		session.save(cart);
+		session.save(item1);
+		session.save(item2);
+		session.save(item3);
+		Cart c2=(Cart) session.get(Cart.class, 6l);
+		//Set<Items> items4=c1.getItems();
+		//Items ie=(Items) session.get(Items.class, 7l);
+		//items4.remove(ie);
+		session.delete(c2);
+		//Commit transaction
+		//session.save(cart);
+		
+		
+		//System.out.println(i);
+		 *
